@@ -1,5 +1,4 @@
 <script>
-  import TailwindCss from './TailwindCSS.svelte';
 
   // icon
   import iconDice from './assets/images/icon-dice.svg'
@@ -17,8 +16,6 @@
   getAdvice()
 
 </script>
-
-<TailwindCss />
 
 <main class="grid place-items-center min-h-screen bg-dark_blue text-base p-5">
   <div class="md:w-1/2 lg:w-3/5 xl:w-2/5 relative bg-dark_grayish_blue p-8 rounded-lg text-center">
@@ -39,3 +36,21 @@
     </div>
   </div>
 </main>
+
+<style global lang="postcss">
+  @tailwind base;
+  @tailwind utilities;
+  @tailwind components;
+
+  @layer base {
+      @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+      :root {
+          --light-cyan: 193deg 38% 86%;
+          --neon-green: 150deg 100% 66%;
+          --grayish-blue: 217deg 19% 38%;
+          --dark-grayish-blue: 217deg 19% 24%;
+          --dark-blue: 218deg 23% 16%;
+      }
+  }
+
+</style>
