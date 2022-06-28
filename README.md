@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/yrombacatan/advice-genarator-using-svelte-and-tailwind)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://advice-genarator-using-svelte-and-tailwind-kysoml57h.vercel.app)
 
 ## My process
 
